@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+With the help of FC -File compare command, I was able to see the line which has difference in the code samples between 2 different files.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+By enabling  the access to the entire history of a file, I will be able to revert back to the previous versions of code sample if they are helpful or in case of typo error in the new file,I can refer to the old file for correct changes. 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros :
+1) Automatic saving the versions dont allow the control of when to commit since each commit should serve one logical purpose meaning.Manually choosing gives the user to control when to commit.
+
+2) Less copies of file versions are created since with auto saving feature there might be surplus of unneeded file versions
+
+
+Cons :
+1) The user might forget to do commits and thus, there is a possibility of loss of important revisions done to the file.
+
+2) Deciding when to commit is incumbent on to the user side.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git carries a more programming oriented approach wherein multiple files may have interrelated code and thus,have dependency .But Google docs uses more kind of traditional document oreiented approach treating each file independent of the other.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log is used to see the summary of all the commits ,with each commit containing the unique commit id,author(the person who performed the commit),the date committed and the message stating what commit consisted of.
+
+Git diff is used to find the difference between two commit versions of the same file.It is used to track the changes happened between two commits.Changes can be either insertion of new line,deletion of existing line.Also,there can be same versions of file in between two commits.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+By using version control we can revert back to the previous version which didnt had bug and thus, even if the latest commit had a change that break the code.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+To use Git on my new project.
