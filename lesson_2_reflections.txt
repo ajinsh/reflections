@@ -20,3 +20,8 @@ Branches can be helpful in case where instead of adding a new commit if u want t
 How do the diagrams help you visualize the branch structure?
 
 Diagrams let you find the commits and their previous parent commits.Thus, you can traverse to any commit from the given diagram.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches results in integration of the individual changes done in each of the branches and making a single merge commit which is the head of the current branch .We represent it in the form of branches joining into one becuase the merged commit has two parent commits.
