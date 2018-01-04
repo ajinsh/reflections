@@ -25,3 +25,13 @@ Diagrams let you find the commits and their previous parent commits.Thus, you ca
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches results in integration of the individual changes done in each of the branches and making a single merge commit which is the head of the current branch .We represent it in the form of branches joining into one becuase the merged commit has two parent commits.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros of Auto merging:
+1. Saves time by automatically merging different changes done.
+2. Gives time to think on the conflicting merge.
+
+Cons :
+1. There may be some mistaked done at the time of merging it manually.
