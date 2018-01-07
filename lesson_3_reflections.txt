@@ -16,3 +16,9 @@ Fork is a feature on GitHub that lets you clone other peoples repository without
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You can access all the commits that are on the GitHub and then work offline.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+For tracking versions without using Git and GitHub,one could version each file based upon the changes(new feature,code optimization etc),and then share it with others either using mail or use DropBox in which case dropbox will automatically keep track of changes.
+It would be really harder to do so since one has to manually keep track of every version and its detail,but in case of Git and GitHub,the commits and commit message help us track each change.
